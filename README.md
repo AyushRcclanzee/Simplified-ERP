@@ -22,7 +22,7 @@ Use the package manager [npm](https://www.npmjs.com/) to install.
 
 clone the repo :
 ```bash
-git clone 
+git clone https://github.com/AyushRcclanzee/Simplified-ERP.git
 ```
 
 Install dependencies :
@@ -37,6 +37,8 @@ npm start
 ```
 
 ## Demo
+
+VISIT - [CLICK HERE🚀](https://simplified-erp.vercel.app/)
 
 DashBoard :
 
