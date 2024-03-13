@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.order-card{
+    border: 1px solid rgb(198, 198, 198);
+    margin: 2vh 1vw;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    height: 7vh;
+    border-radius: 3px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.order-card:hover{
+    background-color:#c7e4ec;
+    transform: scale(1.03);
+    transition: all 0.4s;
+}
+
+.ocard-item-1{
+    width: 5vw;
+    margin-left: 4vw;
+    
+}
+
+.ocard-item-2{
+    width: 15vw;
+    display: flex;
+    margin-left: 7vw;
+    justify-content: center;
+    
+}
+.ocard-item-3{
+    width: 14vw;
+    display: flex;
+    margin-left: 4vw;
+    justify-content: center;
+    
+}
+.ocard-item-4{
+    width: 7vw;
+    margin-left: 7.5vw;
+    display: flex;
+    justify-content: center;
+    
+}
+.ocard-item-5{
+    cursor: pointer;
+    width: 5vw;
+    margin-left: 8vw;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    background-color: rgba(110, 214, 255, 0.167);
+}
+
+.ocard-item-5:hover {
+    background-color: rgba(110, 214, 255, 0.358);;
+}
+
+.orders{
+    display: flex;
+}
+
+.button-add-2{
+    display: flex;
+    margin: 13px auto 0;
+    background-color: #b53737;
+    width: 40%;
+    height: 4.5vh;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s 0.1s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.button-add-2:hover{
+    background-color: #d44444;
+}
+
+.order-details{
+    margin-top: 30px;
+    color: rgb(96, 99, 99);
+}
+
+.order-details-info{
+    margin-bottom: 4px;
+}

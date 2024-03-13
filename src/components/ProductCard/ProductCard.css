@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.product-card{
+    border: 1px solid rgb(198, 198, 198);
+    margin: 2vh 1vw;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    height: 7vh;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+.product-card:hover{
+    background-color:#c7e4ec;
+    transform: scale(1.03);
+    transition: all;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.card-item-1{
+    width: 18vw;
+    margin-left: 2vw;
+}
+
+.card-item-2{
+    width: 10vw;
+    display: flex;
+    margin-left: 1vw;
+    justify-content: center;
+}
+.card-item-3{
+    width: 10vw;
+    display: flex;
+    margin-left: 7vw;
+    justify-content: center;
+}
+.card-item-4{
+    width: 5vw;
+    margin-left: 8.3vw;
+    display: flex;
+    justify-content: center;
+}
+.card-item-5{
+    cursor: pointer;
+    width: 4vw;
+    margin-left: 12vw;
+    display: flex;
+    justify-content: space-between;
+}

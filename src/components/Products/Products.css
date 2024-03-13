@@ -1,0 +1,131 @@
+.products-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 76vw;
+    padding-top: 5.5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+.p-head{
+    font-size: 1.5rem;
+}
+
+.p-head-sub{
+    font-size: 0.8rem;
+}
+
+.p-create-button{
+    background-color: #3866d1;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s 0.1s;
+    cursor: pointer;
+}
+
+.p-create-button:hover{
+    background-color: #4b7cee;
+}
+
+.product-table-head{
+    border-top: 2px solid #e8e8e8;
+    border-bottom: 2px solid #e8e9ea;
+    margin-top:2vw;
+    padding: 1vw 3vw 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-t-h-icons{
+    margin-right: 5px;
+}
+
+.t-h-names{
+    color: rgb(51, 51, 51);
+    font-size: 1rem;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.items-list{
+    height: 74vh;
+    overflow-y: scroll;
+
+}
+.product-main{
+    width: 76vw;
+    height: 100vh;
+}
+
+.Modal{
+    display: flex;
+    align-self: center;
+
+    width: 50vw;
+    background-color: red;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+
+.input-label{
+    margin-bottom: 4px;
+    color: rgb(106, 106, 95);
+    font-size: 1rem;
+}
+
+.input-product{
+    margin-bottom: 10px;
+    width: 98%;
+    border: 1px solid #76ABAE;
+    border-radius: 2px;
+    height: 30px;
+    outline: none;
+    padding-left: 5px;
+    
+}
+
+.modal-heading{
+    font-size: 1.5rem;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(122, 127, 128);;
+}
+
+.modal-icon{
+    cursor: pointer;
+    color: rgb(112, 213, 215);
+    scale: 1.4;
+}
+
+.button-add{
+    display: flex;
+    margin: 13px auto 0;
+    background-color: #3866d1;
+    width: 30%;
+    height: 4.5vh;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s 0.1s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.button-add:hover{
+    background-color: #4b7cee;
+}
