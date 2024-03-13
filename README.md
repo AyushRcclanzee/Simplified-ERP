@@ -13,7 +13,7 @@ An Ecommerce website.
     - Framer Motion
     - Lucide React
 3. Hosting & Database
-    - Firebase
+    - Vercel
     - GitHub
 
 ## Installation
